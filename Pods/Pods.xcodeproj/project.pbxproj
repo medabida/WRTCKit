@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67A9308EF320A918AA07A01BDCAF7DE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C69CB460884A2D5C79CE434BC9557E77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D41EBD69C5B7EBC84CDCA86BBA1B88E9 /* Pods-WRTCKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58189F2B05B25E8FCE3C48A5D183C936 /* Pods-WRTCKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D47A59778F63B9CB9B2B1F4A4ADE2710 /* Pods-WRTCKitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7AAC7B88771D9A23E31F1DAD306551 /* Pods-WRTCKitTests-dummy.m */; };
+		D4DDFDE35936A19272B5F71AD42E9795 /* Pods-WRTCKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D6359D75E661C863BB7AFAFFE3FD37 /* Pods-WRTCKit-dummy.m */; };
+		FB4C0C7583EEDFB4290D3EAC02E344DD /* Pods-WRTCKitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CD29A7269181639419279EF2420BA4 /* Pods-WRTCKitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09D3F6DD77DEA1E0D5793FB54E3545FD /* Pods-WRTCKitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WRTCKitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BA8A426A394FFAF16D330904764E743 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Frameworks/frameworks/WebRTC.framework; sourceTree = "<group>"; };
+		0CBCEC28532FF96F85FFDD5A5E262951 /* Pods-WRTCKitTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WRTCKitTests-resources.sh"; sourceTree = "<group>"; };
+		1968B153C8159857587A5809CC7DA85E /* Pods-WRTCKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WRTCKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58189F2B05B25E8FCE3C48A5D183C936 /* Pods-WRTCKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WRTCKit-umbrella.h"; sourceTree = "<group>"; };
+		5AF51763DA2AB88DAF7101A87C0AE83A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CD29A7269181639419279EF2420BA4 /* Pods-WRTCKitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WRTCKitTests-umbrella.h"; sourceTree = "<group>"; };
+		60D7F868BA92CF3C73C3910239A739CB /* Pods-WRTCKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRTCKit.release.xcconfig"; sourceTree = "<group>"; };
+		650E6EEA709C11A3E9073B536C135390 /* Pods-WRTCKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRTCKit.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D11FFB7BB704361CB05E06F48BFA319 /* Pods-WRTCKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRTCKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		770FB901D5D633DDD9CA9B0E031F2892 /* Pods-WRTCKitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WRTCKitTests.modulemap"; sourceTree = "<group>"; };
+		80CE60B7DE49342EE1F2D24CDD29B1EC /* Pods-WRTCKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRTCKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99E4A05899597377989110054F230349 /* Pods-WRTCKitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRTCKitTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9AF41D7B0B150CAF30075FC543C00F58 /* Pods-WRTCKitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WRTCKitTests-frameworks.sh"; sourceTree = "<group>"; };
+		A00AB7315437BA83B782251B97ACA0BF /* Pods_WRTCKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WRTCKitTests.framework; path = "Pods-WRTCKitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7AAC7B88771D9A23E31F1DAD306551 /* Pods-WRTCKitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WRTCKitTests-dummy.m"; sourceTree = "<group>"; };
+		B236B12726E8FCFA62767D2FBC42EE6D /* Pods-WRTCKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WRTCKit-resources.sh"; sourceTree = "<group>"; };
+		C001B5D054882E352CF1724CBC64BD15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D668EB955E91156AA5AC9E632454ED /* Pods-WRTCKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WRTCKit.modulemap"; sourceTree = "<group>"; };
+		D31A0E9983D162C129A7A8841B97C67E /* Pods-WRTCKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRTCKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB24DD30AE3E92C860B5A46F733AA5C0 /* Pods_WRTCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WRTCKit.framework; path = "Pods-WRTCKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D6359D75E661C863BB7AFAFFE3FD37 /* Pods-WRTCKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WRTCKit-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CB6528567AF0435E2833E0CC642274B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69CB460884A2D5C79CE434BC9557E77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C302853CF148AC042BA50305353B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A9308EF320A918AA07A01BDCAF7DE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48DBC62439C5CD3D42A482DD15B763DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB24DD30AE3E92C860B5A46F733AA5C0 /* Pods_WRTCKit.framework */,
+				A00AB7315437BA83B782251B97ACA0BF /* Pods_WRTCKitTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C72542068CDD76B109362175096C027 /* GoogleWebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				C6D018473C2B4AF1B87EE08D8493501C /* Frameworks */,
+			);
+			name = GoogleWebRTC;
+			path = GoogleWebRTC;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DD05769732698BE3EA0895B38DDC2673 /* Pods */,
+				48DBC62439C5CD3D42A482DD15B763DE /* Products */,
+				EBB136058460EE2514BE539A66B128F1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A3397F26F2E66ED90D2415B7BFF8C28D /* Pods-WRTCKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AF51763DA2AB88DAF7101A87C0AE83A /* Info.plist */,
+				770FB901D5D633DDD9CA9B0E031F2892 /* Pods-WRTCKitTests.modulemap */,
+				09D3F6DD77DEA1E0D5793FB54E3545FD /* Pods-WRTCKitTests-acknowledgements.markdown */,
+				99E4A05899597377989110054F230349 /* Pods-WRTCKitTests-acknowledgements.plist */,
+				AA7AAC7B88771D9A23E31F1DAD306551 /* Pods-WRTCKitTests-dummy.m */,
+				9AF41D7B0B150CAF30075FC543C00F58 /* Pods-WRTCKitTests-frameworks.sh */,
+				0CBCEC28532FF96F85FFDD5A5E262951 /* Pods-WRTCKitTests-resources.sh */,
+				60CD29A7269181639419279EF2420BA4 /* Pods-WRTCKitTests-umbrella.h */,
+				D31A0E9983D162C129A7A8841B97C67E /* Pods-WRTCKitTests.debug.xcconfig */,
+				80CE60B7DE49342EE1F2D24CDD29B1EC /* Pods-WRTCKitTests.release.xcconfig */,
+			);
+			name = "Pods-WRTCKitTests";
+			path = "Target Support Files/Pods-WRTCKitTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6D018473C2B4AF1B87EE08D8493501C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BA8A426A394FFAF16D330904764E743 /* WebRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C81E6B221A59AD76A27D85FD5922AD9A /* Pods-WRTCKit */ = {
+			isa = PBXGroup;
+			children = (
+				C001B5D054882E352CF1724CBC64BD15 /* Info.plist */,
+				C4D668EB955E91156AA5AC9E632454ED /* Pods-WRTCKit.modulemap */,
+				1968B153C8159857587A5809CC7DA85E /* Pods-WRTCKit-acknowledgements.markdown */,
+				6D11FFB7BB704361CB05E06F48BFA319 /* Pods-WRTCKit-acknowledgements.plist */,
+				E7D6359D75E661C863BB7AFAFFE3FD37 /* Pods-WRTCKit-dummy.m */,
+				B236B12726E8FCFA62767D2FBC42EE6D /* Pods-WRTCKit-resources.sh */,
+				58189F2B05B25E8FCE3C48A5D183C936 /* Pods-WRTCKit-umbrella.h */,
+				650E6EEA709C11A3E9073B536C135390 /* Pods-WRTCKit.debug.xcconfig */,
+				60D7F868BA92CF3C73C3910239A739CB /* Pods-WRTCKit.release.xcconfig */,
+			);
+			name = "Pods-WRTCKit";
+			path = "Target Support Files/Pods-WRTCKit";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DD05769732698BE3EA0895B38DDC2673 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C72542068CDD76B109362175096C027 /* GoogleWebRTC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBB136058460EE2514BE539A66B128F1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C81E6B221A59AD76A27D85FD5922AD9A /* Pods-WRTCKit */,
+				A3397F26F2E66ED90D2415B7BFF8C28D /* Pods-WRTCKitTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		107F5E51FC6EB7022A4F11619B15F04A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4C0C7583EEDFB4290D3EAC02E344DD /* Pods-WRTCKitTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77173EA250C45407CAAFD0C4B45BA455 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41EBD69C5B7EBC84CDCA86BBA1B88E9 /* Pods-WRTCKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2083F5AC42509194038EEAE7B9A7B11B /* Pods-WRTCKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E906FED6FECC7EAA3BD313914CAD05B1 /* Build configuration list for PBXNativeTarget "Pods-WRTCKit" */;
+			buildPhases = (
+				BA65F743C0CCA8E6F12E80BB281AB06D /* Sources */,
+				D3C302853CF148AC042BA50305353B74 /* Frameworks */,
+				77173EA250C45407CAAFD0C4B45BA455 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WRTCKit";
+			productName = "Pods-WRTCKit";
+			productReference = DB24DD30AE3E92C860B5A46F733AA5C0 /* Pods_WRTCKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		765B311C0E59B1144BE6BEF6385E9BE9 /* Pods-WRTCKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1859364E5F7814D36F159651BC382F /* Build configuration list for PBXNativeTarget "Pods-WRTCKitTests" */;
+			buildPhases = (
+				D1D9DDA463D45B097D41AD27B8DAFABB /* Sources */,
+				7CB6528567AF0435E2833E0CC642274B /* Frameworks */,
+				107F5E51FC6EB7022A4F11619B15F04A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WRTCKitTests";
+			productName = "Pods-WRTCKitTests";
+			productReference = A00AB7315437BA83B782251B97ACA0BF /* Pods_WRTCKitTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 48DBC62439C5CD3D42A482DD15B763DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2083F5AC42509194038EEAE7B9A7B11B /* Pods-WRTCKit */,
+				765B311C0E59B1144BE6BEF6385E9BE9 /* Pods-WRTCKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA65F743C0CCA8E6F12E80BB281AB06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DDFDE35936A19272B5F71AD42E9795 /* Pods-WRTCKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D9DDA463D45B097D41AD27B8DAFABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47A59778F63B9CB9B2B1F4A4ADE2710 /* Pods-WRTCKitTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3247D3787BFCAB57597A8F09D552E8C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D7F868BA92CF3C73C3910239A739CB /* Pods-WRTCKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WRTCKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRTCKit/Pods-WRTCKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WRTCKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7ADF850BD6DA9CF0C0A82BD8091C23D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650E6EEA709C11A3E9073B536C135390 /* Pods-WRTCKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WRTCKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRTCKit/Pods-WRTCKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WRTCKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D144F724433A09597E3476A57631255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		99B19C9DDDD145500F1CE06EAAB0518D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80CE60B7DE49342EE1F2D24CDD29B1EC /* Pods-WRTCKitTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WRTCKitTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRTCKitTests/Pods-WRTCKitTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WRTCKitTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D48F7E85823DF6E8FA7F56B6476E2085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31A0E9983D162C129A7A8841B97C67E /* Pods-WRTCKitTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WRTCKitTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRTCKitTests/Pods-WRTCKitTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WRTCKitTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D144F724433A09597E3476A57631255 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1859364E5F7814D36F159651BC382F /* Build configuration list for PBXNativeTarget "Pods-WRTCKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48F7E85823DF6E8FA7F56B6476E2085 /* Debug */,
+				99B19C9DDDD145500F1CE06EAAB0518D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E906FED6FECC7EAA3BD313914CAD05B1 /* Build configuration list for PBXNativeTarget "Pods-WRTCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADF850BD6DA9CF0C0A82BD8091C23D0 /* Debug */,
+				3247D3787BFCAB57597A8F09D552E8C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
