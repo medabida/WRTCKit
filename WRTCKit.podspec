@@ -10,5 +10,5 @@ s.author = { "med abida" => "medabida2428@gmail.com" }
 s.homepage = "https://github.com/medabida/WRTCKit"
 s.source = { :git => "https://github.com/medabida/WRTCKit.git", :tag => "#{s.version}"}
 s.dependency 'GoogleWebRTC', '~> 1.1.20913'
-s.source_files = "WRTCKit/**/*.{swift}"
+s.source_files = "WRTCKit/code/**/*.{swift}"
 end
