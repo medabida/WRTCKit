@@ -7,7 +7,7 @@
 
 import Foundation
 import AVFoundation
-
+ 
 class AVCaptureState {
     static var isVideoDisabled: Bool {
         let status = AVCaptureDevice.authorizationStatus(forMediaType: AVMediaTypeVideo)
