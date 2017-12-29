@@ -11,6 +11,8 @@
 		804991991FF6DA46005F2BFE /* WRTCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8049918F1FF6DA45005F2BFE /* WRTCKit.framework */; };
 		8049919E1FF6DA46005F2BFE /* WRTCKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049919D1FF6DA46005F2BFE /* WRTCKitTests.swift */; };
 		804991A01FF6DA46005F2BFE /* WRTCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 804991921FF6DA46005F2BFE /* WRTCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		804991AB1FF6DE0C005F2BFE /* AVCaptureState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804991A91FF6DE0C005F2BFE /* AVCaptureState.swift */; };
+		804991AC1FF6DE0C005F2BFE /* RTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804991AA1FF6DE0C005F2BFE /* RTCClient.swift */; };
 		F1577DF046B5058B058547BB /* Pods_WRTCKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7440DF48A09BF3ACAC9D98 /* Pods_WRTCKitTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		804991981FF6DA46005F2BFE /* WRTCKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WRTCKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8049919D1FF6DA46005F2BFE /* WRTCKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRTCKitTests.swift; sourceTree = "<group>"; };
 		8049919F1FF6DA46005F2BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804991A91FF6DE0C005F2BFE /* AVCaptureState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCaptureState.swift; sourceTree = "<group>"; };
+		804991AA1FF6DE0C005F2BFE /* RTCClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCClient.swift; sourceTree = "<group>"; };
 		887E67D2108010729EE1AB20 /* Pods-WRTCKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WRTCKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WRTCKitTests/Pods-WRTCKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF7440DF48A09BF3ACAC9D98 /* Pods_WRTCKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WRTCKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -105,6 +109,7 @@
 			children = (
 				804991921FF6DA46005F2BFE /* WRTCKit.h */,
 				804991931FF6DA46005F2BFE /* Info.plist */,
+				804991AD1FF6DE13005F2BFE /* code */,
 			);
 			path = WRTCKit;
 			sourceTree = "<group>";
@@ -116,6 +121,15 @@
 				8049919F1FF6DA46005F2BFE /* Info.plist */,
 			);
 			path = WRTCKitTests;
+			sourceTree = "<group>";
+		};
+		804991AD1FF6DE13005F2BFE /* code */ = {
+			isa = PBXGroup;
+			children = (
+				804991A91FF6DE0C005F2BFE /* AVCaptureState.swift */,
+				804991AA1FF6DE0C005F2BFE /* RTCClient.swift */,
+			);
+			path = code;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +199,7 @@
 				TargetAttributes = {
 					8049918E1FF6DA45005F2BFE = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					804991971FF6DA46005F2BFE = {
@@ -311,6 +326,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804991AC1FF6DE0C005F2BFE /* RTCClient.swift in Sources */,
+				804991AB1FF6DE0C005F2BFE /* AVCaptureState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3EC5104CE4A1DF4991380CDB /* Pods-WRTCKit.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -463,6 +481,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tn.madtek.WRTCKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,6 +491,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 17ED67B52C8C042840DD30D1 /* Pods-WRTCKit.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -494,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 887E67D2108010729EE1AB20 /* Pods-WRTCKitTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HBT9FH8X6;
 				INFOPLIST_FILE = WRTCKitTests/Info.plist;
@@ -509,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 614E6CA4E3D10AA4D3724212 /* Pods-WRTCKitTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HBT9FH8X6;
 				INFOPLIST_FILE = WRTCKitTests/Info.plist;
